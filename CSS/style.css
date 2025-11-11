@@ -685,7 +685,7 @@ section.Tienda {
 }
 
 /* ==== CARD GENERAL ==== */
-.card-Jugadoras {
+.Entrenadores .card-Jugadoras {
   border: none;
   border-radius: 15px;
   overflow: hidden;
@@ -693,28 +693,28 @@ section.Tienda {
   background-color: #fff;
 }
 
-.card-Jugadoras:hover {
+.Entrenadores .card-Jugadoras:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-.card-Jugadoras img {
+.Entrenadores .card-Jugadoras img {
   width: 100%;
   height: 320px;
   object-fit: cover;
 }
 
-.card-Jugadoras .card-body {
+.Entrenadores .card-Jugadoras .card-body {
   padding: 1.5rem;
 }
 
-.card-Jugadoras .card-title {
+.Entrenadores .card-Jugadoras .card-title {
   font-size: 1.3rem;
   color: #001f3f;
   margin-bottom: 0.5rem;
 }
 
-.card-Jugadoras .card-text {
+.Entrenadores .card-Jugadoras .card-text {
   font-size: 0.95rem;
   color: #333;
   line-height: 1.4;
@@ -722,29 +722,29 @@ section.Tienda {
 }
 
 /* ==== MODALES ==== */
-.modal-content {
+.Entrenadores .modal-content {
   border-radius: 15px;
   border: none;
 }
 
-.modal-header {
+.Entrenadores .modal-header {
   background-color: #001f3f;
   color: #fff;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.modal-title {
+.Entrenadores .modal-title {
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-.modal-body img {
+.Entrenadores .modal-body img {
   max-height: 350px;
   object-fit: cover;
 }
 
-.modal-body p {
+.Entrenadores .modal-body p {
   text-align: justify;
   color: #333;
   line-height: 1.6;
@@ -753,7 +753,7 @@ section.Tienda {
 
 /* ==== RESPONSIVE ==== */
 @media (max-width: 768px) {
-  .card-Jugadoras img {
+  .Entrenadores .card-Jugadoras img {
     height: 260px;
   }
 }
